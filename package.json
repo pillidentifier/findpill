@@ -1,0 +1,23 @@
+{
+  "name": "findpills_nodejq",
+  "version": "1.0.0",
+  "description": "find pills from api's using color, shape, and text",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jsdom": "^9.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "find",
+    "pills",
+    "pillfinder",
+    "phungtechnology",
+    "pillidentifier"
+  ],
+  "author": "eric phung",
+  "license": "ISC"
+}

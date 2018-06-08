@@ -1,4 +1,4 @@
-// using Version 5.4.1
+// using Version 5.4.1.  jisdom
 var jsdom = require('jsdom').jsdom;
 var document = jsdom('<html></html>', {});
 var window = document.defaultView;
@@ -18,7 +18,6 @@ $.get( "https://rximage.nlm.nih.gov/api/rximage/1/rxnav?&resolution=full&color="
 var list = data["nlmRxImages"];
 console.log(data)
 console.log(list);
-//console.log(dataList)
 console.log("============================")
 console.log("Pills Found: " + data["nlmRxImages"].length)
 console.log("ID: " + list[1].id)
